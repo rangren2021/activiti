@@ -16,7 +16,7 @@ public class ActivitiApplicationTests {
 
     @Test
     public void contextLoads() {
-        ProcessEngineConfiguration pec =    ProcessEngineConfiguration.createStandaloneProcessEngineConfiguration();
+        ProcessEngineConfiguration pec = ProcessEngineConfiguration.createStandaloneProcessEngineConfiguration();
         pec.setJdbcUrl("jdbc:mysql://localhost:3306/activiti?characterEncoding=utf-8");
         pec.setJdbcDriver("com.mysql.jdbc.Driver");
         pec.setJdbcUsername("root");
